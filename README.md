@@ -42,31 +42,40 @@ using phpadmin UI
 <img src="https://imgur.com/gfW4NvR.png" width="650" height="400">
 
 
+
 ## 2. MySQL Server
 <sub> bfdkfhskdhjkfhksjhfjkshdjfkhsjfhjhhdfjkshjfsdfs </sub>  
-### 2.1: Installation/Provisioning & Configuration    
+### 2.1: Installation/Provisioning & Configuration 
+<img src=".png">
 
 ### 2.2: Recovery MySQL server using a previous backup   
 #### 2.2.1: Restore the provided backup file onto MySQL server 
 use ``` source <backup.file>``` command to restore the database  
+<img src="https://imgur.com/bq4bUWJ.png">  
 ##### 2.2.2: Find the table data size
-use ``` select count(*) from table_name;``` to find the actual data size 
-
+use ``` select count(*) from table_name;``` to find the actual data size  
+<img src="https://imgur.com/aRqX5bI.png">  
 ### 2.3 Indexing  
-#### 2.3.1: Baseline query performance 
-<sub> looking at how long the query ``` select * from table_name where condition``` takes to retrieve the data from unindexed table </sub>  
-#### 2.3.2: Create an Index 
+#### 2.3.1: Baseline Query Performance 
+looking at how long the query ``` select * from table_name where condition``` takes to retrieve the data from unindexed table  
+<img src="https://imgur.com/a7oRhOq.png">  
+#### 2.3.2: Create an Index  
 use ``` create index column_new_name on table_name(columns_that_needed_to_index)```  
+<img src="https://imgur.com/LApB7PH.png">  
 #### 2.3.3 Document the improvement in query performance  
-re-run the query again to compare the performance before indexing and after indexing
+re-run the query again to compare the performance before indexing and after indexing  
+<img src="https://imgur.com/n63TGRt.png">  
 
 ### 2.4: Storage Engines  
 #### 2.4.1: Find the supported storage engines  
 use ``` show engines```  
+<img src="https://imgur.com/FgDfVrc.png">  
 #### 2.4.2: Find the storage engine of a table  
 use ``` select table_name, engine from information_schema.tables where table_name = "table_you_need_to_find"```
+<img src="https://imgur.com/yQPm0cR.png">  
 
 ### 2.5: Automation of Routine Tasks 
+<img src="https://imgur.com/EFx4HJL.png">  
 
 ## 3. IBM Db2 instance   
 ### 3.: Restore the table billing   
