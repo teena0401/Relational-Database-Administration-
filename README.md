@@ -1,7 +1,7 @@
 # Relational-Database-Administration
 
 ## Introduction
-In this project, I will assume as a role of data adminstrator to perform data admintrastion tasks across three different databases (PostgreSQL, MySQL server, IBM DBS server) at a data analytics consulting company.  
+In this project, I will assume as a role of data adminstrator to perform data admintrastion tasks across two different databases (PostgreSQL, MySQL server ) at a data analytics consulting company.  
 Tasks to perform across three databases: 
 -  start by installing and configuring a database, managing users and performing a backup
 -  move on to recovery, indexing, optimization and automation of routine tasks
