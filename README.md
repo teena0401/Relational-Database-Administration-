@@ -1,6 +1,7 @@
 # Relational-Database-Administration
 
 ## Introduction
+As part of IBM data engeering course 
 In this project, I will assume as a role of data adminstrator to perform data admintrastion tasks across two different databases (PostgreSQL, MySQL server ) at a data analytics consulting company.  
 Tasks to perform across three databases: 
 -  start by installing and configuring a database, managing users and performing a backup
